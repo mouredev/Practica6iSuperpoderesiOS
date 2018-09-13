@@ -4,9 +4,10 @@
 Aplicación iOS en Swift nutrida con servicios de TMDb. Explora películas, series y actores.
 
 ## Importante
-Para el correcto funcionamiento de la app contra el API de TMDb, debemos crear en la ruta `TMDbCore/Config` un fichero `llamado Keys.xcconfig` que contenga:
+* Instalar las dependencias del proyecto usando Carthage.
+* Para el correcto funcionamiento de la app contra el API de TMDb, debemos crear en la ruta `TMDbCore/Config` un fichero `llamado Keys.xcconfig` que contenga:
 
-`TMDB_API_KEY = [NUESTRA API KEY DE TMDB]`
+	`TMDB_API_KEY = [NUESTRA API KEY DE TMDB]`
 
 ## Requisitos
 * Xcode 9.4 ([https://developer.apple.com/xcode/](https://developer.apple.com/xcode/))
